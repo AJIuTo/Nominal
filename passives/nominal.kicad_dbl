@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "version": 0
+  },
+  "name": "Nominal",
+  "description": "Те же номиналы, что в символах Nominal. Для выбора в KiCad используются символьные библиотеки.",
+  "source": {
+    "type": "odbc",
+    "dsn": "",
+    "username": "",
+    "password": "",
+    "timeout_seconds": 5,
+    "connection_string": "Driver={SQLite3 ODBC Driver};Database=${NOMINAL_DIR}/passives/nominal.sqlite;"
+  },
+  "libraries": []
+}
