@@ -1,0 +1,128 @@
+(footprint "C_0805_HandSolder_feedthrough"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Capacitor SMD 0805 feedthrough")
+	(tags "capacitor handsolder feedthrough feed")
+	(property "Reference" "REF**"
+		(at 0 -2.286 0)
+		(layer "F.SilkS")
+		(uuid "1f60e0c2-4fed-4020-b20e-b1c10607b76f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_0805_HandSolder_feedthrough"
+		(at 0 1.68 0)
+		(layer "F.Fab")
+		(uuid "86a75809-7325-40dc-9daa-d8bf2b6bbe61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "22d62a2d-562b-4067-a25f-2ad9574f5436")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a006b9b-8f02-4317-bcd4-9cc21c7f1626")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.8 -1.2)
+		(end 1.8 1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "fdb31584-f015-4c3c-8ea6-3e33152cf910")
+	)
+	(fp_rect
+		(start -1 -0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "22a4b7ec-ea5c-4546-b0da-a83534ab6963")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "6f86f75b-7dfd-4809-947c-3e7f13c49c1d")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.2 0)
+		(size 1 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.212766)
+		(uuid "691c394f-a26e-4d0a-829d-459a57794da7")
+	)
+	(pad "2" smd roundrect
+		(at 0 -0.7)
+		(size 0.7 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.212766)
+		(uuid "0d933ca2-3b79-43e6-9f35-ab7340ef7a2e")
+	)
+	(pad "2" smd roundrect
+		(at 0 0.7)
+		(size 0.7 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.212766)
+		(uuid "28e4707d-e0f1-45f9-85af-9fce55604aa8")
+	)
+	(pad "3" smd roundrect
+		(at 1.2 0)
+		(size 1 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.212766)
+		(uuid "c8fb128c-4897-40cb-8d60-c274d98f55dd")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
